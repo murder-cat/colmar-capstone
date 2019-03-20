@@ -55,7 +55,7 @@ header .mobile{
 }
 
 .image{
-  width: 60%;
+  width: 100%;
 }
 
 .image img{
@@ -64,15 +64,9 @@ header .mobile{
 }
 
 .slogan{
-
-}
-
-.slogan h1{
-
-}
-
-.slogan p{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button{
@@ -88,4 +82,14 @@ header .mobile{
   width: 50%;
   height: 40px;
   text-transform: capitalize;
+}
+
+/*practice section*/
+.practice{
+  display: flex;
+}
+
+.practice .column{
+  display: flex;
+  flex-direction: column;
 }
