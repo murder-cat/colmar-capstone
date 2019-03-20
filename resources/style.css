@@ -90,6 +90,25 @@ header .mobile{
 }
 
 .practice .column{
+  width: 40%;
+}
+
+.articles{
+
+}
+
+.story{
+  display: inline-flex;
+  align-items: center;
+}
+
+.story img{
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.info{
   display: flex;
   flex-direction: column;
 }
