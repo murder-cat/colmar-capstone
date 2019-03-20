@@ -1,7 +1,6 @@
 /*universal section*/
 body{
   font-family: Helvetica, sans-serif;
-  align-items: center;
 }
 
 /*navigation section*/
@@ -111,4 +110,31 @@ header .mobile{
 .info{
   display: flex;
   flex-direction: column;
+}
+
+/*learning section*/
+.learn{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #DCDCDC;
+  padding: 32px 72px;
+}
+
+.title{
+
+}
+
+.course{
+  display: flex;
+  background-color: white;
+}
+
+.course img{
+  height: auto;
+}
+
+.course-info{
+  
 }
