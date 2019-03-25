@@ -164,3 +164,30 @@ header .mobile{
 .course-info{
 
 }
+
+/*thesis section*/
+.thesis{
+  display: flex;
+}
+
+.title{
+  display: inline-flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.film video{
+
+}
+
+
+.description{
+
+}
+
+.thesis .column{
+  width: 40%;
+}
