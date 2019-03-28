@@ -135,8 +135,6 @@ header .mobile{
 
 .info{
   display: flex;
-  flex-direction: column;
-  width: 65%;
 }
 
 /*learning section*/
@@ -155,10 +153,13 @@ header .mobile{
 
 .course{
   background-color: white;
+      border: 6px yellow solid; /* temp visual */
+  width: 30%;
+  margin: 15px 0px;
 }
 
 .course img{
-  height: auto;
+  width: 100%;
 }
 
 .course-info{
@@ -168,6 +169,8 @@ header .mobile{
 /*thesis section*/
 .thesis{
   display: flex;
+  flex-direction: column;
+  padding: 0 25px;
 }
 
 .title{
@@ -177,19 +180,17 @@ header .mobile{
 .container{
   display: flex;
   flex-direction: column;
+  width: 65%;
 }
 
-.film video{
-
+.film video {
+  width: 100%;
 }
 
-
-.description{
-
-}
-
-.thesis .column{
+.thesis-column{
   width: 40%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*footer section*/
