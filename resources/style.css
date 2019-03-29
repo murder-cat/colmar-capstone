@@ -1,11 +1,17 @@
 /*universal section*/
 body{
-  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  font-family: Montserrat, sans-serif;
   margin: auto;
 }
 
 a {
   text-decoration: none;
+  color: #959595;
+}
+
+a:hover{
+  color: #514C4C;
 }
 
 ul{
@@ -20,7 +26,7 @@ header{
   justify-content: space-between;
   background-color: white;
   width: 100%;
-  height: 64px;
+  height: 4em;
 }
 
 header .navigation{
@@ -40,7 +46,7 @@ header .tabs{
 }
 
 .desktop ul li{
-  padding: 14px;
+  padding: 0.875em;
 }
 
 header .mobile{
@@ -49,7 +55,7 @@ header .mobile{
 
 
 /*navigation mobile*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 20em) and (max-width: 30em) {
   .mobile ul {
 
   }
@@ -60,23 +66,24 @@ header .mobile{
   display: flex;
   align-items: center;
   background: #DCDCDC;
-  padding-top: 64px;
+  padding-top: 4em;
 }
 
 .banner img{
   width: 60%;
   height: 100%;
-  padding: 32px 24px;
+  padding: 2em 1.5em;
 }
 
 .slogan{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 1.25em;
 }
 
 .slogan h1{
-  font-size: 60px;
+  font-size: 3.75em;
   color: #514C4C;
   margin: 0;
 }
@@ -90,16 +97,24 @@ header .mobile{
   display: flex;
 }
 
+.button p:hover{
+  color: black;
+  background-color: #959595;
+  opacity: none;
+}
+
 .button p{
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #514C4C;
   color: white;
-  width: 95%;
-  height: 40px;
-  padding: 8px;
+  width: 100%;
+  height: 2.5em;
+  padding: 0.5em;
   text-transform: capitalize;
+  opacity: 1;
+  transition: 0.3s;
 }
 
 /*practice section*/
@@ -115,7 +130,7 @@ header .mobile{
   display: flex;
   flex-direction: column;
   width: 60%;
-  padding: 32px 24px;
+  padding: 2em 1.5em;
 }
 
 .practice .column{
@@ -125,12 +140,12 @@ header .mobile{
 .story{
   display: inline-flex;
   align-items: center;
-  padding: 16px;
+  padding: 1em;
 }
 
 .story img{
   width: 35%;
-  padding: 16px;
+  padding: 1em;
 }
 
 .info{
@@ -140,7 +155,7 @@ header .mobile{
 /*learning section*/
 .learn{
   background: #DCDCDC;
-  padding: 32px 72px;
+  padding: 2em 4.5em;
   text-align: center;
 }
 
@@ -149,14 +164,14 @@ header .mobile{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 32px 72px;
+  padding: 2em 4.5em;
 }
 
 .course{
   background-color: white;
-      border: 6px yellow solid; /* temp visual */
+      border: 0.375em yellow solid; /* temp visual */
   width: 30%;
-  margin: 15px 0px;
+  margin: 0.9375em 0em;
 }
 
 .course img{
@@ -164,12 +179,12 @@ header .mobile{
 }
 
 .course h2{
-  padding: 8px 16px;
+  padding: 0.5em 1em;
   text-align: left;
 }
 
 .course p{
-  padding: 0px 16px;
+  padding: 0em 1em;
   text-align: left;
 }
 
@@ -177,17 +192,21 @@ header .mobile{
 .thesis{
   display: flex;
   flex-direction: column;
-  padding: 0 25px;
+  padding: 0 1.5625em;
 }
 
 .title{
-  display: inline-flex;
+  padding-top: 2em;
+  text-align: center;
 }
 
-.container{
+section{
   display: flex;
-  flex-direction: column;
-  width: 65%;
+  padding: 2em 0em;
+}
+
+section .film{
+  width: 60%;
 }
 
 .film video {
@@ -205,8 +224,8 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 16px 24px;
-  border-top: 1px solid gray;
+  padding: 1em 1.5em;
+  border-top: 0.0625em solid gray;
 }
 
 .copyright{
@@ -219,5 +238,5 @@ footer{
 }
 
 .terms ul li{
-  padding: 14px;
+  padding: 0.875em;
 }
