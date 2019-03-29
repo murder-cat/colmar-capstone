@@ -96,7 +96,7 @@ header .mobile{
   justify-content: center;
   background-color: #514C4C;
   color: white;
-  width: 100%;
+  width: 95%;
   height: 40px;
   padding: 8px;
   text-transform: capitalize;
@@ -205,6 +205,8 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid gray;
 }
 
 .copyright{
@@ -214,4 +216,8 @@ footer{
 .terms ul{
   display: flex;
   justify-content: space-around;
+}
+
+.terms ul li{
+  padding: 14px;
 }
