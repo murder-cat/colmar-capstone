@@ -1,6 +1,6 @@
 /*universal section*/
 body {
-  font-size: 1em;
+  font-size: 1rem;
   font-family: Montserrat, sans-serif;
   margin: auto;
 }
@@ -26,7 +26,7 @@ header {
   justify-content: space-between;
   background-color: white;
   width: 100%;
-  height: 4em;
+  height: 4rem;
 }
 
 header .navigation {
@@ -46,7 +46,7 @@ header .tabs {
 }
 
 .desktop ul li {
-  padding: 0.875em;
+  padding: 0.875rem;
 }
 
 header .mobile {
@@ -55,7 +55,7 @@ header .mobile {
 
 
 /*navigation mobile*/
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 29.375rem) {
   header {
     justify-content: center;
   }
@@ -79,7 +79,7 @@ header .mobile {
   }
 
   .mobile ul li {
-    padding: 0.875em;
+    padding: 0.875rem;
   }
 }
 
@@ -88,24 +88,24 @@ header .mobile {
   display: flex;
   align-items: center;
   background: #DCDCDC;
-  padding-top: 4em;
+  padding-top: 4rem;
 }
 
 .banner img {
   width: 60%;
   height: 100%;
-  padding: 2em 1.5em;
+  padding: 2.5rem 1.5rem;
 }
 
 .slogan {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 1.25em;
+  margin: 1.25rem;
 }
 
 .slogan h1 {
-  font-size: 3.75em;
+  font-size: 3.75rem;
   color: #514C4C;
   margin: 0;
 }
@@ -132,23 +132,23 @@ header .mobile {
   background-color: #514C4C;
   color: white;
   width: 100%;
-  height: 2.5em;
-  padding: 0.5em;
+  height: 2.5rem;
+  padding: 0.5rem;
   text-transform: capitalize;
   opacity: 1;
   transition: 0.3s;
 }
 
   /* banner mobile */
-  @media only screen and (max-width: 470px) {
+  @media only screen and (max-width: 29.375rem) {
     .slogan h1 {
-      font-size: 50px;
+      font-size: 3.125rem;
       color: #514C4C;
       margin: 0;
     }
 
     .slogan h3 {
-      font-size: 30px;
+      font-size: 1.875rem;
       color: #514C4C;
       margin: auto;
     }
@@ -159,7 +159,7 @@ header .mobile {
 
     .banner img {
       width: 100%;
-      padding-top: 0px;
+      padding-top: 0rem;
     }
 
   }
@@ -172,7 +172,7 @@ header .mobile {
   display: flex;
   flex-direction: column;
   width: 60%;
-  padding: 2em 1.5em;
+  padding: 2rem 1.5rem;
 }
 
 .caption img {
@@ -186,12 +186,12 @@ header .mobile {
 .story {
   display: inline-flex;
   align-items: center;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .story img {
   width: 35%;
-  padding: 1em;
+  padding: 1rem;
 }
 
 .info {
@@ -200,7 +200,7 @@ header .mobile {
 }
 
   /* practice mobile */
-  @media only screen and (max-width: 470px) {
+  @media only screen and (max-width: 29.375rem) {
     .practice {
       flex-direction: column;
     }
@@ -220,7 +220,7 @@ header .mobile {
 
     .story img {
       width: 100%;
-      padding: 0px;
+      padding: 0rem;
     }
 
     .info {
@@ -231,7 +231,7 @@ header .mobile {
 /*learning section*/
 .learn {
   background: #DCDCDC;
-  padding: 2em 4.5em;
+  padding: 2rem 4.5rem;
   text-align: center;
 }
 
@@ -240,14 +240,14 @@ header .mobile {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 2em 4.5em;
+  padding: 2rem 4.5rem;
 }
 
 .course {
   background-color: white;
     /*  border: 0.375em yellow solid; /* temp visual */
   width: 30%;
-  margin: 0.9375em 0em;
+  margin: 0.9375rem 0rem;
 }
 
 .course img {
@@ -255,39 +255,39 @@ header .mobile {
 }
 
 .course h2 {
-  padding: 0.5em 1em;
+  padding: 0.5rem 1rem;
   text-align: left;
 }
 
 .course p {
-  padding: 0em 1em;
+  padding: 0rem 1rem;
   text-align: left;
 }
 
 /* learn mobile */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 29.375rem) {
   .learn {
     background: white;
-    padding: 0px 16px;
-    border-top: 0.0625em solid lightgray;
+    padding: 0rem 1rem;
+    border-top: 0.0625rem solid lightgray;
 }
 
   .title {
-    padding-top: 2em;
-    padding-bottom: 16px;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
   }
 
   .avaliable {
     display: block;
     width: 100%;
-    padding: 0px;
-    padding-bottom: 32px;
+    padding: 0rem;
+    padding-bottom: 2rem;
   }
 
   .course {
     width: 100%;
     background-color: #DCDCDC;
-    padding: 1px;
+    padding: 0.0625rem;
   }
 
   .course p {
@@ -304,17 +304,17 @@ header .mobile {
 .thesis {
   display: flex;
   flex-direction: column;
-  padding: 0 1.5625em;
+  padding: 0rem 1.5625rem;
 }
 
 .title {
-  padding-top: 2em;
+  padding-top: 1.5rem;
   text-align: center;
 }
 
 section {
   display: flex;
-  padding: 2em 0em;
+  padding: 1.5rem 0rem;
 }
 
 section .film {
@@ -332,10 +332,10 @@ section .film {
 }
 
 /* thesis mobile */
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 29.375rem) {
   .thesis {
-    padding: 0px;
-    border-top: 0.0625em solid lightgray;
+    padding: 0rem;
+    border-top: 0.0625rem solid lightgray;
   }
 
   .thesis-column {
@@ -356,8 +356,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1em 1.5em;
-  border-top: 0.0625em solid lightgray;
+  padding: 1rem 1.5rem;
+  border-top: 0.0625rem solid lightgray;
 }
 
 .copyright {
@@ -370,16 +370,16 @@ footer {
 }
 
 .terms ul li {
-  padding: 0.875em;
+  padding: 0.875rem;
 }
 
   /* practice mobile */
-  @media only screen and (max-width: 470px) {
+  @media only screen and (max-width: 29.375rem) {
     .terms {
       display: none;
     }
 
     .copyright {
-      padding: 16px 0px;
+      padding: 1rem 0rem;
     }
   }
