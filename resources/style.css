@@ -1,5 +1,5 @@
 /*universal section*/
-body{
+body {
   font-size: 1em;
   font-family: Montserrat, sans-serif;
   margin: auto;
@@ -10,16 +10,16 @@ a {
   color: #959595;
 }
 
-a:hover{
-  color: #514C4C;
+a:hover {
+  color: #514c4c;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
 /*navigation section*/
-header{
+header {
   position: fixed;
   z-index: 1;
   display: flex;
@@ -29,97 +29,96 @@ header{
   height: 4em;
 }
 
-header .navigation{
+header .navigation {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-header .tabs{
+header .tabs {
   display: flex;
   align-items: center;
 }
 
-.desktop ul{
+.desktop ul {
   display: flex;
   justify-content: space-between;
 }
 
-.desktop ul li{
+.desktop ul li {
   padding: 0.875em;
 }
 
-header .mobile{
+header .mobile {
   display: none;
 }
 
-
 /*navigation mobile*/
 @media only screen and (max-width: 470px) {
-  header .desktop{
+  header .desktop {
     display: none;
   }
 
-  header .navigation{
+  header .navigation {
     display: none;
   }
 
-  header .mobile{
+  header .mobile {
     display: flex;
   }
 
-  header .mobile ul{
+  header .mobile ul {
     display: flex;
   }
 }
 
 /*banner section*/
-.banner{
+.banner {
   display: flex;
   align-items: center;
-  background: #DCDCDC;
+  background: #dcdcdc;
   padding-top: 4em;
 }
 
-.banner img{
+.banner img {
   width: 60%;
   height: 100%;
   padding: 2em 1.5em;
 }
 
-.slogan{
+.slogan {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 1.25em;
 }
 
-.slogan h1{
+.slogan h1 {
   font-size: 3.75em;
-  color: #514C4C;
+  color: #514c4c;
   margin: 0;
 }
 
-.slogan h3{
-  color: #514C4C;
+.slogan h3 {
+  color: #514c4c;
   margin: auto;
 }
 
-.button{
+.button {
   display: flex;
 }
 
-.button p:hover{
+.button p:hover {
   color: black;
   background-color: #959595;
   opacity: none;
 }
 
-.button p{
+.button p {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #514C4C;
+  background-color: #514c4c;
   color: white;
   width: 100%;
   height: 2.5em;
@@ -129,58 +128,55 @@ header .mobile{
   transition: 0.3s;
 }
 
-  /* banner mobile */
-  @media only screen and (max-width: 470px) {
-
-  }
+/* banner mobile */
+@media only screen and (max-width: 470px) {
+}
 /*practice section*/
-.practice{
+.practice {
   display: flex;
 }
 
-.practice img{
-
+.practice img {
 }
 
-.caption{
+.caption {
   display: flex;
   flex-direction: column;
   width: 60%;
   padding: 2em 1.5em;
 }
 
-.practice .column{
+.practice .column {
   width: 40%;
 }
 
-.story{
+.story {
   display: inline-flex;
   align-items: center;
   padding: 1em;
 }
 
-.story img{
+.story img {
   width: 35%;
   padding: 1em;
 }
 
-.info{
+.info {
   display: flex;
 }
 
-  /* practice mobile */
-  @media only screen and (max-width: 470px) {
-
-  }
+/* practice mobile */
+@media only screen and (max-width: 470px) {
+}
 
 /*learning section*/
-.learn{
-  background: #DCDCDC;
+.learn {
+  background: #dcdcdc;
   padding: 2em 4.5em;
   text-align: center;
 }
 
-.avaliable{
+.avaliable {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -188,50 +184,49 @@ header .mobile{
   padding: 2em 4.5em;
 }
 
-.course{
+.course {
   background-color: white;
-      border: 0.375em yellow solid; /* temp visual */
+  border: 0.375em yellow solid; /* temp visual */
   width: 30%;
   margin: 0.9375em 0em;
 }
 
-.course img{
+.course img {
   width: 100%;
 }
 
-.course h2{
+.course h2 {
   padding: 0.5em 1em;
   text-align: left;
 }
 
-.course p{
+.course p {
   padding: 0em 1em;
   text-align: left;
 }
 
 /* learn mobile */
 @media only screen and (max-width: 470px) {
-
 }
 
 /*thesis section*/
-.thesis{
+.thesis {
   display: flex;
   flex-direction: column;
   padding: 0 1.5625em;
 }
 
-.title{
+.title {
   padding-top: 2em;
   text-align: center;
 }
 
-section{
+section {
   display: flex;
   padding: 2em 0em;
 }
 
-section .film{
+section .film {
   width: 60%;
 }
 
@@ -239,7 +234,7 @@ section .film{
   width: 100%;
 }
 
-.thesis-column{
+.thesis-column {
   width: 40%;
   display: flex;
   justify-content: space-evenly;
@@ -247,11 +242,10 @@ section .film{
 
 /* thesis mobile */
 @media only screen and (max-width: 470px) {
-
 }
 
 /*footer section*/
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -259,20 +253,44 @@ footer{
   border-top: 0.0625em solid gray;
 }
 
-.copyright{
+.copyright {
   display: inline-flex;
 }
 
-.terms ul{
+.terms ul {
   display: flex;
   justify-content: space-around;
 }
 
-.terms ul li{
+.terms ul li {
   padding: 0.875em;
 }
 
-  /* practice mobile */
-  @media only screen and (max-width: 470px) {
+/* practice mobile */
+@media only screen and (max-width: 470px) {
+}
 
+/* Example of how I use media queries */
+
+.banner {
+  /* Start with how you want it to look on mobile*/
+  border: 4px solid gold;
+  flex-direction: column;
+}
+
+/* min 768px // iPad & Up */
+@media screen and (min-width: 768px) {
+  .banner {
+    /* Lay down how it should look on an ipad*/
+    border: 4px solid magenta;
+    flex-direction: row;
   }
+}
+
+/* Min 1200px // Desktop & Up */
+@media screen and (min-width: 1200px) {
+  .banner {
+    /* Add any finesse for desktop, in this case we don't need to add anything, just showing you the progression*/
+    border: 4px solid cyan;
+  }
+}

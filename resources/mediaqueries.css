@@ -1,0 +1,29 @@
+/* The ones I use most fequently */
+
+/* min 768px // iPad & Up */
+@media screen and (min-width: 768px) {
+}
+
+/* Min 1200px // Desktop & Up */
+@media screen and (min-width: 1200px) {
+}
+
+/****** Other helpful breakpoints ******/
+
+/* max 767px // Everything Below iPad */
+@media screen and (max-width: 767px) {
+}
+
+/* max 991px // Everything Below iPad Landscape */
+@media screen and (max-width: 991px) {
+}
+
+/* min 992px // iPad Landscape & Up */
+@media screen and (min-width: 992px) {
+}
+
+/* Max 1199px // Everything Below Desktop */
+@media screen and (max-width: 1199px) {
+}
+
+/* Example Media Query Usage */
